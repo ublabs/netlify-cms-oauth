@@ -4,13 +4,13 @@
 
 A simple OAuth2 serverless gateway for Netlify CMS written in TypeScript.
 
-# Why do I need this?
+## Why do I need this?
 
 If you would like to use Netlify CMS to manage your site deployed to Vercel.
 
 [GitHub](https://github.com) and [Gitlab](https://gitlab.com) requires a server for authentication and Netlify provides this server only for sites deployed to it. Fortunately, such server is rather small and can work with Vercel's serverless functions.
 
-# Usage
+## Usage
 
 In yours projects modify `config.yml` file:
 
@@ -21,6 +21,20 @@ backend:
   branch: main # Branch to update
   base_url: https://netlify-cms.adrianub.vercel.app
 ```
+
+## Deploy
+
+- Create a OAuth App on Github and Gitlab
+- Set `Authorization callback URL` url of your oauth website deployed
+- Set environment variables on `Vercel`
+
+    ```shell
+    OAUTH_GITHUB_CLIENT_ID=<you-client-id>
+    OAUTH_GITHUB_CLIENT_SECRET=<you-client-secret>
+
+    OAUTH_GITLAB_CLIENT_ID=<you-client-id>
+    OAUTH_GITLAB_CLIENT_SECRET=<you-client-secret>
+    ```
 
 ## Authors
 
