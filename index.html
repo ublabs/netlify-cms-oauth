@@ -33,10 +33,6 @@
       content="https://banners.adrianub.vercel.app/Use%20Netlify%20CMS%20for%20sites%20hosted%20on%20Vercel..png?type=banner&theme=dark&author=Adri%C3%A1n+UB&username=adrian-ub&images=netlify&widths=250&heights=250&images=vercel&widths=250&heights=250&pattern=architect&md=1&showWatermark=1&fontSize=100px"
     />
 
-    <link
-      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
     <style>
       .github-corner:hover .octo-arm {
         animation: octocat-wave 560ms ease-in-out;
@@ -117,6 +113,8 @@
         }
       }
     </style>
+
+    <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
   </head>
   <body class="min-h-screen border-t-4 border-gray-900 flex flex-col">
     <a
@@ -244,6 +242,28 @@
                 </div>
               </div>
             </div>
+          </div>
+
+          <div class="w-full mt-4 flex justify-end">
+            <a href="https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fublabs%2Fnetlify-cms-oauth&env=OAUTH_GITHUB_CLIENT_ID,OAUTH_GITHUB_CLIENT_SECRET,OAUTH_GITLAB_CLIENT_ID,OAUTH_GITLAB_CLIENT_SECRET&envDescription=Create%20a%20OAuth%20App%20on%20Github%20and%20Gitlab%20and%20set%20variables%20information%20&envLink=https%3A%2F%2Fgithub.com%2Fublabs%2Fnetlify-cms-oauth%23deploy&project-name=netlify-cms-oauth&repo-name=netlify-cms-oauth&demo-title=Netlify%20CMS%20OAuth&demo-description=Use%20Netlify%20CMS%20for%20sites%20hosted%20on%20Vercel.&demo-url=https%3A%2F%2Fnetlify-cms-adrianub.vercel.app">
+                <button class="flex-shrink-0 bg-gray-800 text-white text-base font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 focus:ring-offset-gray-200">
+
+                    <svg
+                        id="vercel-svg"
+                        class="h-6 w-6 fill-current inline-flex"
+                        role="img"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        >
+                        <title>Vercel icon</title>
+                        <path d="M24 22.525H0l12-21.05 12 21.05z"></path>
+                    </svg>
+
+                    <span>
+                        Deploy
+                    </span>
+                </button>
+            </a>
           </div>
         </div>
         <div class="sm:w-2/5">

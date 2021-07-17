@@ -1,8 +1,15 @@
-# Netlify CMS on Vercel
+<a href="https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fublabs%2Fnetlify-cms-oauth&env=OAUTH_GITHUB_CLIENT_ID,OAUTH_GITHUB_CLIENT_SECRET,OAUTH_GITLAB_CLIENT_ID,OAUTH_GITLAB_CLIENT_SECRET&envDescription=Create%20a%20OAuth%20App%20on%20Github%20and%20Gitlab%20and%20set%20variables%20information%20&envLink=https%3A%2F%2Fgithub.com%2Fublabs%2Fnetlify-cms-oauth%23deploy&project-name=netlify-cms-oauth&repo-name=netlify-cms-oauth&demo-title=Netlify%20CMS%20OAuth&demo-description=Use%20Netlify%20CMS%20for%20sites%20hosted%20on%20Vercel.&demo-url=https%3A%2F%2Fnetlify-cms-adrianub.vercel.app"><img height="100" src="https://vercel.com/button" alt="Deploy with Vercel" align="right"></a>
 
-![](https://banners.adrianub.vercel.app/Netlify%20CMS%20on%20Vercel.png?type=package&theme=dark&description=Use+Netlify+CMS+for+sites+hosted+on+Vercel&images=netlify&widths=250&heights=250&images=vercel&widths=250&heights=250&pattern=architect&md=1&showWatermark=1&fontSize=100px)
+<div align="center">
+    <h3>
+        Netlify CMS on Vercel
+    </h3>
+    <p>
+        A simple OAuth2 serverless gateway for Netlify CMS
+    </p>
+</div>
 
-A simple OAuth2 serverless gateway for Netlify CMS written in TypeScript.
+---
 
 ## Why do I need this?
 
