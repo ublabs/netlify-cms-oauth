@@ -31,8 +31,14 @@ backend:
 
 ## Deploy
 
-- Create a OAuth App on Github and Gitlab
-- Set `Authorization callback URL` url of your oauth website deployed
+- Create Github OAuth App:
+  - Go to [developer settings](https://github.com/settings/developers)
+  - Set `Authorization callback URL` to your deployed oauth website's callback URL:
+    `https://netlify-cms.adrianub.vercel.app/callback`
+- Create Gitlab OAuth app:
+  - Go to [User settings > Applications](https://gitlab.com/-/profile/applications)
+  - Set `Redirect URI` to your deployed oauth website's callback URL:
+    `https://netlify-cms.adrianub.vercel.app/callback`
 - Set environment variables on `Vercel`
 
     ```shell
