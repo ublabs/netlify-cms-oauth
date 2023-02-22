@@ -1,22 +1,25 @@
 import { IncomingMessage, ServerResponse } from "http";
 import { AuthorizationCode } from "simple-oauth2";
-import { config } from "../lib/config";
+import { config, Provider } from "../lib/config";
 
 export default async (req: IncomingMessage, res: ServerResponse) => {
   const { host } = req.headers;
   const url = new URL(`https://${host}/${req.url}`);
   const urlParams = url.searchParams;
   const code = urlParams.get("code");
-  const provider = urlParams.get("provider");
-  const client = new AuthorizationCode(config(provider));
-  const tokenParams = {
-    code,
-    redirect_uri: `https://${host}/callback?provider=${provider}`,
-  };
+  const provider = urlParams.get("provider") as Provider;
 
   try {
+    if (!code) throw new Error(`Missing code ${code}`);
+
+    const client = new AuthorizationCode(config(provider));
+    const tokenParams = {
+      code,
+      redirect_uri: `https://${host}/callback?provider=${provider}`,
+    };
+
     const accessToken = await client.getToken(tokenParams);
-    const token = accessToken.token["access_token"];
+    const token = accessToken.token["access_token"] as string;
 
     const responseBody = renderBody("success", {
       token,
