@@ -27,18 +27,13 @@ const auth: Record<
   },
 };
 
-function getEnv(key: string) {
-  if (!process.env[key]) throw new Error("Missing env variable");
-  return process.env[key] as string;
-}
-
 const client: Record<Provider, { id: string; secret: string }> = {
   github: {
-    id: getEnv("OAUTH_GITHUB_CLIENT_ID"),
-    secret: getEnv("OAUTH_GITHUB_CLIENT_SECRET"),
+    id: process.env.OAUTH_GITHUB_CLIENT_ID as string,
+    secret: process.env.OAUTH_GITHUB_CLIENT_SECRET as string,
   },
   gitlab: {
-    id: getEnv("OAUTH_GITLAB_CLIENT_ID"),
-    secret: getEnv("OAUTH_GITLAB_CLIENT_SECRET"),
+    id: process.env.OAUTH_GITLAB_CLIENT_ID as string,
+    secret: process.env.OAUTH_GITLAB_CLIENT_SECRET as string,
   },
 };
