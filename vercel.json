@@ -2,5 +2,8 @@
   "rewrites": [
     { "source": "/auth", "destination": "/api/auth.ts" },
     { "source": "/callback", "destination": "/api/callback.ts" }
-  ]
+  ],
+  "github": {
+    "silent": true
+  }
 }
