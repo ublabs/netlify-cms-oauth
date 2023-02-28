@@ -5,10 +5,10 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "simple-oauth2": "^4.2.0"
+    "simple-oauth2": "~5.0.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.25",
-    "@types/simple-oauth2": "^4.1.0"
+    "@types/node": "^18.14.0",
+    "@types/simple-oauth2": "^5.0.2"
   }
 }
