@@ -3,86 +3,72 @@
 
 
 "@hapi/boom@^10.0.1":
-  "integrity" "sha512-ERcCZaEjdH3OgSJlyjVk8pHIFeus91CjKP3v+MpgBNp5IvGzP2l/bRiD78nqYcKPaZdbKkK5vDBVPd2ohHBlsA=="
-  "resolved" "https://registry.npmjs.org/@hapi/boom/-/boom-10.0.1.tgz"
-  "version" "10.0.1"
+  version "10.0.1"
+  resolved "https://registry.npmjs.org/@hapi/boom/-/boom-10.0.1.tgz"
   dependencies:
     "@hapi/hoek" "^11.0.2"
 
 "@hapi/bourne@^3.0.0":
-  "integrity" "sha512-Waj1cwPXJDucOib4a3bAISsKJVb15MKi9IvmTI/7ssVEm6sywXGjVJDhl6/umt1pK1ZS7PacXU3A1PmFKHEZ2w=="
-  "resolved" "https://registry.npmjs.org/@hapi/bourne/-/bourne-3.0.0.tgz"
-  "version" "3.0.0"
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/@hapi/bourne/-/bourne-3.0.0.tgz"
 
 "@hapi/hoek@^10.0.1":
-  "integrity" "sha512-CvlW7jmOhWzuqOqiJQ3rQVLMcREh0eel4IBnxDx2FAcK8g7qoJRQK4L1CPBASoCY6y8e6zuCy3f2g+HWdkzcMw=="
-  "resolved" "https://registry.npmjs.org/@hapi/hoek/-/hoek-10.0.1.tgz"
-  "version" "10.0.1"
+  version "10.0.1"
+  resolved "https://registry.npmjs.org/@hapi/hoek/-/hoek-10.0.1.tgz"
 
 "@hapi/hoek@^11.0.2":
-  "integrity" "sha512-aKmlCO57XFZ26wso4rJsW4oTUnrgTFw2jh3io7CAtO9w4UltBNwRXvXIVzzyfkaaLRo3nluP/19msA8vDUUuKw=="
-  "resolved" "https://registry.npmjs.org/@hapi/hoek/-/hoek-11.0.2.tgz"
-  "version" "11.0.2"
+  version "11.0.2"
+  resolved "https://registry.npmjs.org/@hapi/hoek/-/hoek-11.0.2.tgz"
 
 "@hapi/hoek@^9.0.0":
-  "integrity" "sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ=="
-  "resolved" "https://registry.npmjs.org/@hapi/hoek/-/hoek-9.3.0.tgz"
-  "version" "9.3.0"
+  version "9.3.0"
+  resolved "https://registry.npmjs.org/@hapi/hoek/-/hoek-9.3.0.tgz"
 
 "@hapi/topo@^5.0.0":
-  "integrity" "sha512-foQZKJig7Ob0BMAYBfcJk8d77QtOe7Wo4ox7ff1lQYoNNAb6jwcY1ncdoy2e9wQZzvNy7ODZCYJkK8kzmcAnAg=="
-  "resolved" "https://registry.npmjs.org/@hapi/topo/-/topo-5.1.0.tgz"
-  "version" "5.1.0"
+  version "5.1.0"
+  resolved "https://registry.npmjs.org/@hapi/topo/-/topo-5.1.0.tgz"
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
 "@hapi/wreck@^18.0.0":
-  "integrity" "sha512-OLHER70+rZxvDl75xq3xXOfd3e8XIvz8fWY0dqg92UvhZ29zo24vQgfqgHSYhB5ZiuFpSLeriOisAlxAo/1jWg=="
-  "resolved" "https://registry.npmjs.org/@hapi/wreck/-/wreck-18.0.1.tgz"
-  "version" "18.0.1"
+  version "18.1.2"
+  resolved "https://registry.yarnpkg.com/@hapi/wreck/-/wreck-18.1.2.tgz#1c1c84427085d7018ff4157ef3eb1e2cf080b26b"
   dependencies:
     "@hapi/boom" "^10.0.1"
     "@hapi/bourne" "^3.0.0"
     "@hapi/hoek" "^11.0.2"
 
 "@sideway/address@^4.1.3":
-  "integrity" "sha512-7vwq+rOHVWjyXxVlR76Agnvhy8I9rpzjosTESvmhNeXOXdZZB15Fl+TI9x1SiHZH5Jv2wTGduSxFDIaq0m3DUw=="
-  "resolved" "https://registry.npmjs.org/@sideway/address/-/address-4.1.4.tgz"
-  "version" "4.1.4"
+  version "4.1.4"
+  resolved "https://registry.npmjs.org/@sideway/address/-/address-4.1.4.tgz"
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
 "@sideway/formula@^3.0.1":
-  "integrity" "sha512-/poHZJJVjx3L+zVD6g9KgHfYnb443oi7wLu/XKojDviHy6HOEOA6z1Trk5aR1dGcmPenJEgb2sK2I80LeS3MIg=="
-  "resolved" "https://registry.npmjs.org/@sideway/formula/-/formula-3.0.1.tgz"
-  "version" "3.0.1"
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/@sideway/formula/-/formula-3.0.1.tgz"
 
 "@sideway/pinpoint@^2.0.0":
-  "integrity" "sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ=="
-  "resolved" "https://registry.npmjs.org/@sideway/pinpoint/-/pinpoint-2.0.0.tgz"
-  "version" "2.0.0"
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/@sideway/pinpoint/-/pinpoint-2.0.0.tgz"
 
 "@types/node@^18.14.0":
-  "integrity" "sha512-5EWrvLmglK+imbCJY0+INViFWUHg1AHel1sq4ZVSfdcNqGy9Edv3UB9IIzzg+xPaUcAgZYcfVs2fBcwDeZzU0A=="
-  "resolved" "https://registry.npmjs.org/@types/node/-/node-18.14.0.tgz"
-  "version" "18.14.0"
+  version "18.14.0"
+  resolved "https://registry.npmjs.org/@types/node/-/node-18.14.0.tgz"
 
 "@types/simple-oauth2@^5.0.2":
-  "integrity" "sha512-GoqbWy5SmiwGfBfASHcuzHqkBz/fzr0iPrlO41MqQfpGzjLzaqQDkjgghC4YgK1+SGX3pPx24urnlw89xqJ/eA=="
-  "resolved" "https://registry.npmjs.org/@types/simple-oauth2/-/simple-oauth2-5.0.2.tgz"
-  "version" "5.0.2"
+  version "5.0.2"
+  resolved "https://registry.npmjs.org/@types/simple-oauth2/-/simple-oauth2-5.0.2.tgz"
 
-"debug@^4.3.4":
-  "integrity" "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ=="
-  "resolved" "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
-  "version" "4.3.4"
+debug@^4.3.4:
+  version "4.3.4"
+  resolved "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
   dependencies:
-    "ms" "2.1.2"
+    ms "2.1.2"
 
-"joi@^17.6.4":
-  "integrity" "sha512-q5Fn6Tj/jR8PfrLrx4fpGH4v9qM6o+vDUfD4/3vxxyg34OmKcNqYZ1qn2mpLza96S8tL0p0rIw2gOZX+/cTg9w=="
-  "resolved" "https://registry.npmjs.org/joi/-/joi-17.8.3.tgz"
-  "version" "17.8.3"
+joi@^17.6.4:
+  version "17.8.3"
+  resolved "https://registry.npmjs.org/joi/-/joi-17.8.3.tgz"
   dependencies:
     "@hapi/hoek" "^9.0.0"
     "@hapi/topo" "^5.0.0"
@@ -90,17 +76,15 @@
     "@sideway/formula" "^3.0.1"
     "@sideway/pinpoint" "^2.0.0"
 
-"ms@2.1.2":
-  "integrity" "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
-  "resolved" "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
-  "version" "2.1.2"
+ms@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
 
-"simple-oauth2@~5.0.0":
-  "integrity" "sha512-8291lo/z5ZdpmiOFzOs1kF3cxn22bMj5FFH+DNUppLJrpoIlM1QnFiE7KpshHu3J3i21TVcx4yW+gXYjdCKDLQ=="
-  "resolved" "https://registry.npmjs.org/simple-oauth2/-/simple-oauth2-5.0.0.tgz"
-  "version" "5.0.0"
+simple-oauth2@~5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/simple-oauth2/-/simple-oauth2-5.0.0.tgz"
   dependencies:
     "@hapi/hoek" "^10.0.1"
     "@hapi/wreck" "^18.0.0"
-    "debug" "^4.3.4"
-    "joi" "^17.6.4"
+    debug "^4.3.4"
+    joi "^17.6.4"
